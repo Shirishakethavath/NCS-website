@@ -1,0 +1,999 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.topcontainer{
+    height:50px;
+    background-color:#F2F3F4 ;
+    width:100%;
+}
+.fluidcontainer{
+    height:50px;
+    width:98%;
+    display:flex;
+   /* background-color:rgb(65, 129, 233);*/
+    margin:0px auto;
+}
+.govtindia{
+    width:34%;
+}
+.sec-govtindia{
+    height:32px;
+    width:100%;
+   /* background-color:aliceblue;*/
+    margin: 5px 0px;
+}
+.india-logo img{
+    width:8%;
+}
+.indiatext{
+    position: relative;
+    bottom: 8px;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+.indiatext a:hover{
+    text-decoration: underline;
+}
+.indiatext a{
+    text-decoration:none;
+    color:#333;
+}
+.socialcontainer{
+    width:66%;
+    height:50px;
+   /* background-color: chartreuse;*/
+}
+.sec-socialcontainer{
+    height:44px;
+    width:100%;
+   /* background-color:orangered;*/
+    margin-top:5px;
+  
+}
+.third-container{
+    height:44px;
+    width:76%;
+   /* background-color:antiquewhite;*/
+    float:right;
+}
+.linkcontainer{
+    display:flex;
+    
+}
+.linkcontainer li{
+    padding-left: 7px;
+    padding-right: 7px;
+    list-style-type: none;
+    padding-top: 6px;
+    
+}
+.linkcontainer li a{
+    text-decoration: none;
+   
+}
+.skip, .hindi{
+    padding:8px 7px 0px;
+    border-right:1px solid black;
+}
+.skip a, .hindi a, .chair a{
+    color:#666666;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.skip:hover{
+    background-color:#666666;
+}
+.skip a:hover{
+    color:white;
+}
+.hindi:hover{
+    background-color:#666666;
+}
+.hindi a:hover{
+    color:white;
+}
+
+.texticon{
+    padding:4px 7px 0px;
+    border-right:1px solid black;
+}
+.texticon:hover{
+    background-color: #666666;
+}
+.texticon a:hover{
+    color:white;
+}
+.texticon a{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666666;
+}
+.socialicon{
+    border-right:1px solid black;
+}
+.socialicon a{
+    border-radius: 4px;
+}
+.btntxt{
+    width:80px;
+    height:30px;
+    border:0.5px solid black;
+    border-radius:4px;
+}
+.text1{
+    color:#666;
+    background-color:white;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text2{
+    color:white;
+    background-color:black;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+}                           /*------------------------------------end of header--------------------------*/
+
+.satyameva-container{
+  width:100%;
+  height:70px;
+  background-color:white;
+}
+.sec-satyameva-container{
+    width:98%;
+  height:70px;
+  
+  margin:0px auto;
+  display:flex;
+}
+.satyameva-logo{
+    width:50%;
+    height:60px;
+    
+    margin:auto 0px;
+    display:flex;
+}
+.satyatxt{
+    margin-top:10px;
+    margin-left:18px;
+}
+.satyatext{
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    text-decoration: underline black;
+}
+.satyatext1{
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+}
+.g2ocontainer{
+    width:50%;
+    height:70px;
+    
+    margin:auto 0px;
+}  
+.g2o{
+    width:55%;
+    height:70px;
+    float:left;
+   
+}
+.g2o img{
+    margin-top: 2px;
+}
+.helpline{
+    width:45%;
+    height:70px;
+   
+    float:right;
+}
+.services-logo{
+    display:flex;
+}
+.Homeaboutcontact{
+    margin:0px;
+   
+}
+.Homeaboutcontact a{
+ font-size:14px;
+ color:#2A80B9;
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration: none;
+ 
+ padding: 0px 15px 0px 5px;
+}
+.Homeaboutcontact a:hover{
+    text-decoration: underline;
+}
+.tollfree{
+    margin-top: 11px;
+    margin-left: 60px;
+}
+.tollnum1{
+    font-size:14px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333333;
+}
+.tollnum2{
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333333;
+}/*--------------------------end of satyameva-----------------------------------------*/
+
+.navbar{
+    width:100%;
+    background-color: rgb(24, 2, 65);
+    margin:auto;
+}
+.menu-bar{
+    width:96%;
+    height:80px;
+   
+    /*text-align:center*/
+    margin:0px auto;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style-type: none;  
+}
+.menu-bar ul li{
+   margin:10px;
+    padding:7px;
+   
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left:5pxpx;
+    padding-right:5px;
+}
+.active, .menu-bar ul li:hover{
+    background-color: hotpink;
+    border-radius: 2px;
+}
+.sub-menu{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu{
+  display:block;
+  position:absolute;
+  background-color: brown;
+  margin-top:9px;
+  margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+   display:block;
+  
+}
+.menu-bar ul li:hover .sub-menu ul li{
+  border-bottom:1px dotted black;
+  border-radius:  4px;
+  text-align:left;
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+    background-color:hotpink;
+}
+.fa-caret-right{
+    float:right;
+}
+.sub-menu2, .sub-menu12{
+    display:none;
+}
+.hover-me:hover .sub-menu2{
+    width:300px;
+    position:absolute;
+    margin-top:-30px;
+    margin-left:240px;
+    display:block;
+    background-color:rgb(3, 78, 70);
+}
+.hover-me1:hover .sub-menu12{
+    width:300px;
+    position:absolute;
+    margin-top:-30px;
+    margin-left:190px;
+    display:block;
+    background-color:rgb(3, 78, 70);
+}
+
+/*-----------------------------end of navbar---------------------------------------------------*/
+
+.bannerheader{
+    width:100%;
+    height:530px;
+}
+.bannercontainer{
+    width:100%;
+    height:530px;
+    display:flex;
+}
+.banner{
+    width:75%;
+    height:530px;
+
+}
+.what{
+    width:25%;
+    height:530px;
+    background-color: white;
+}
+.sec-what{
+    width:90%;
+    height:50px;
+    margin: 15px auto 0px;
+}
+.newtxt{
+    color:#0B4E97;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:10px 0px;
+
+}
+.sec-newtxt{
+   border-bottom:3px solid #0B4E97;
+}
+.scrolltext{
+    width:90%;
+    height:450px;
+    margin: 0px auto;
+}
+.scrolltxt-sec{
+    list-style-type: none;
+    padding:10px 0px;
+}
+.scrolltxt-sec a{
+  color:black;
+  font-size:16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:none;
+}
+.scrolltxt-sec a:hover{
+    text-decoration: underline black;
+}
+.Newscroll{
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+}/*------------------------------end of banner------------------------------------------*/
+
+.marqu{
+    width:100%;
+    height:60px;
+    background-color:#1C426F;
+    padding-top: 2px;
+}
+.marquescroll{
+    height:40px;
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* background-color: red;*/
+   
+}
+.click12, .pwds, .stipend, .story{
+    display:inline-block;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.borderr{
+    margin: 0px 15px;
+    border-right:2px solid white;
+    padding:0px 5px;
+}
+.notice, .please{
+    display:inline-block;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px; 
+    color:white;
+}
+/*.click12, .pwds, .stipend, .public, .notice, .please{
+    border-right:2px solid white;
+    padding:0px 10px;
+}
+.click, .pwds, .stipend, .public, .story{
+    color:#EFAB49; 
+
+}
+.notice{
+    color:#ff0000;
+}
+.please{
+    color:#ffffff;
+}/*--------------------------------end of marqu----------------------------------------------------------*/
+
+.jobcontainer{
+    width:100%;
+    height:365px;
+    background-color:white;
+    margin:30px 0px;
+}
+.jobheader{
+    width:100%;
+    height:365px;
+   margin:0px auto;
+    display:flex;
+}
+
+.jobseeker{
+    width:41%;
+    height:365px;
+    background-color:#f7f7f8;
+    border: 1px solid #dedee0;
+    margin: 0px 14px;
+    border-radius: 6px;
+}
+.jobseeker img{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.gap{
+    width:10%;
+    height:20px;
+}
+/*.Honble{
+    width:223px;
+    height:365px;
+    background-color:red;
+    margin-left: 45px;*/
+
+.Honblepersons{
+    width:222px;
+    height:333px;
+   
+    margin-top: 15px;
+}
+.yadav{
+    width:222px;
+    height:164px;
+   
+}
+.yadav img{
+    margin-left: 40px;
+}
+.yadavtxt, .teiltxt{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-weight:bold;
+}
+.teil{
+    width:222px;
+    height:169px;
+   
+}
+.teil img{
+    margin-left: 48px;
+}/*-----------------------------------end of job conatiner-------------------------------*/
+
+.shadowcontainer{
+   width:100%;
+   height:245px;
+   margin-bottom:30px;
+}
+.shadowbox{
+    width:98%;
+    height:245px;
+    background-color: whitesmoke;
+    margin:0px auto;
+    box-shadow:0px 4px 8px 0px rgba(0,0,0,0.5);
+    padding:15px;
+}
+.borderbox{
+    display:flex;
+    width:100%;
+    height:214px;
+}
+.findjob{
+    width:80%;
+    height:214px;
+}
+.searchbox{
+    width:20%;
+    height:214px;
+}
+.find{
+    width:100%;
+    height:45px;
+}
+
+.jobs{
+ display:inline-block;
+    font-size:17px;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#0B4E97;
+    padding:10px 11px;
+    margin:0px 2px 0px 0px;
+    border:1px solid black;
+}
+.btnshadow{
+  padding-top:40px;
+  text-align:center;
+}
+.bttn{
+    width:45%;
+    padding:8px 15px;
+    font-size:19px;
+    border-radius: 4px;
+    background-color: #333333;
+    color:white; 
+}
+.advan{
+    display:block;
+    text-align:center;
+    padding-top:10px;
+    color:#5c5c5c;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnsection{
+    width:100%;
+    height:170px;
+    border: 1px solid #AAB7B8 ;
+    padding:10px;
+
+}
+.sec-btnsection{
+  height:150px;
+  width:100%;   
+}
+.btnjavahead{
+    width:100%;
+    height:51px;
+    padding:0px 15px;
+}
+.btnjava1{
+    width:531px;
+    height:34px;
+}
+.btnjava2{
+    width:270px;
+    height:34px;
+    margin-left: 15px;
+}
+.searchbtnjava{
+    width:37px;
+    height:34px;
+    float:left
+}
+.data{
+    float:left;
+    padding-top:7px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.searchbtnjava i{
+    font-size:17px;
+    padding-top: 5px;
+    color:#666666;
+}
+.btnjava2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666666;
+    text-align: justify;
+    position: relative;
+    bottom:15px;
+}
+.radiolist{
+    width:100%;
+    height:70px;
+    background-color:darkgreen;
+    margin-top:29px;
+    display:flex;
+}
+.radiobutton{
+    width:50%;
+    height:auto;
+    background-color: #EAEDED ;
+    padding:5px 0px;
+}
+.radio{
+    margin-left:5px;
+
+}
+.diff{
+    padding-right:15px;
+    line-height: 30px;
+    color:#666666;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.radiobutton1{
+    width:90%;
+    height:auto;
+    float:right;
+}
+.career{
+    display:inline-block;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#666666;
+    padding:10px 11px;
+    margin:0px 2px 0px 0px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}/*--------------------------------end of shadowcontainer--------------------------------------------------------------*/
+
+.threebox{
+    width:100%;
+    height:411px;
+    margin-bottom:30px;
+}
+.threeboxcontainer{
+    height:411px;
+    width:100%;
+    display:flex;
+}
+.box3{
+    width:506px;
+    height:409px;
+    border:1px solid #dedee0;
+    border-radius:6px;
+   margin-left:15px;
+   margin-right:15px;
+}
+.insidebox{
+    width:476px;
+    height:409px;
+    background: #f7f7f8;
+    border:1px solid #dedee0;
+    border-radius:6px;
+    padding:25px;
+}
+.profile{
+    color: #0b4e97;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #0b4e97;
+    display:inline;
+    padding-bottom:5px;
+}
+.fourcontainer{
+    width:424px;
+    height:300px;
+    margin-top: 15px;
+   
+}
+.smallbox1, .smallbox3{
+    height:127px;
+    width:197px;
+    background-color:#fff;
+    border: 1px solid #999999;
+    float:left;
+    margin-bottom: 25px;
+    border-radius:6px;
+   
+}
+.tcsicon{
+   margin-top:22px;
+}
+.tcsicon img{
+    margin:0px 15px 0px 15px;
+}
+.Digisaksham{
+    margin-top:39px;
+
+}
+.Digisaksham img{
+    margin:0px 8px 0px 8px;
+}
+.Digisakshamtext{
+   margin-top:18px;
+   font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333333;
+    text-align:center;
+}
+.profiletxt{
+    margin-top:24px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333333;
+    text-align:center;
+    
+}
+.smallbox2, .smallbox4{
+    height:127px;
+    width:197px;
+    background-color:#fff;
+    border: 1px solid #999999;
+    float:right;
+    margin-bottom: 25px;
+    border-radius:6px;
+}
+.labeltxt, .updatetxt{
+    text-align:center;
+    margin-top:5px;
+    padding:10px;
+}
+.labeltxt a, .updatetxt a{
+    color:#2a80b9;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+
+.labeltxt a:hover{
+    text-decoration: underline;
+}
+
+.updatetxt a:hover{
+    text-decoration: underline;
+}
+.instruction{
+    margin: 10px 69px;
+}
+.instructiontxt{
+    font-size:14.5px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#333;
+}
+.instructiontxt:hover{
+    text-decoration: underline #2a80b9;
+}
+.viewall{
+    text-align:right;
+    font-size:14.5px;
+    color:#0B4E97;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.viewall:hover{
+    text-decoration: underline;
+}
+.scrollbarup{
+    margin-top:15px; 
+    height:300px;
+    width:424px;
+    
+    display:inline-block;
+    overflow:hidden;
+}
+.ul{
+    margin:0px;
+    padding:0px;
+}
+.Jobfairs li{
+    padding-bottom:7px;
+    list-style-type: none;
+    border-bottom: 1px solid #dee2e6;
+    
+}
+.Jobfairs li a{
+   text-decoration: none;
+   font-size:17px;
+   color:#000;
+} 
+         /*-------------------------------- end of threeboxes -------------of ----------------*/
+.box33{
+    width:100%;
+    height:120px;
+    margin-bottom:30px;
+}
+.bax33container{
+    width:100%;
+    height:120px;
+    display:flex;
+    
+}
+.skybluebox{
+    width:476px;
+    height:120px;
+    background-color:#b7e7ff;
+    border:1px solid #97bfd3;
+    border-radius:4px;
+    margin-left:15px;
+    margin-right:15px;
+    position:relative;
+}
+.international{
+    font-size:36px;
+    background-color:#b7e7ff;
+    text-align:center;
+    margin-top:18px;
+    color:#333;
+}
+.click{
+  padding:8px 0px;
+  text-align:center;
+  text-transform: uppercase;
+  font-size:14.5px; 
+  background-color:#71ccfa; 
+ position:absolute;
+ width:100.45%;
+ bottom:0px;
+}
+.click a{
+    text-decoration: none;
+}
+.click a:hover{
+    text-decoration: underline;;
+}       /* --------------------box33-------------------*/
+
+.topemployer
+{         
+    width:100%;
+    height:171px;
+}
+.topcontaineremployee{
+    width:98%;
+    height:141px;
+    margin:auto;
+    border: 1px solid black;
+    border-radius:4px;
+}
+.toptext{
+    color: /*#0b4e97*/white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding:10px 0px 10px 20px;
+}
+
+.limited{
+    width:100%;
+    height:52px;
+    background-color: #f2f2f4;
+}
+.limi{
+    display:flex;
+}
+.limi li{
+    padding-top:17px;
+    list-style-type:none;
+    margin:auto;
+}
+.limi li a{
+    text-decoration: none;
+    font-size:16px;
+}
+.information{
+    width:100%;
+    height:190px;
+    padding-top:15px;
+    margin-bottom:15px;
+}
+.inforcontainer{
+    width:98%;
+    height:159px;
+    background-color: #ffffff;
+    margin:auto;
+    display:flex;
+    border: 1px solid #d5d5d7;
+    border-radius: 6px;
+}
+.fourinfor{
+    width:328px;
+    height:127px;
+    border-radius: 6px;
+    margin:auto;
+    display:flex;
+   
+}
+.iconcareer{
+    padding-top:15px;
+    padding-left:10px;
+}
+.iconcareertext{
+    text-align:center;
+    margin:auto;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#333333;
+}   
+.color2 {
+    width:100%; 
+    height:45px;
+}   
+.color-sec{
+    width:32%;
+    height:45px;
+    float:right;
+    display:flex;
+}
+.colbox{
+    width:17px;
+    height:17px;
+    margin-top:15px;
+    background-color: #5b2d75;
+    border-radius:5px;
+    margin-left: 5px;
+}
+.basis{
+    margin-top:15px;
+    padding-left:10px;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#A1A2A3;
+}
+/* -------------------- end of topemployeer-------------------*/
+
+.smallrow{
+    width:100%;
+    height:40px;
+    border: 1px solid #d5d5d7;
+}
+.sec-smallrow{
+    width:98%;
+    height:40px;
+    margin:0px auto;
+
+}
+.third-smallrow{
+    width:75%;
+    height:40px;
+    margin:0px auto;
+    
+}
+.smallrowtxt{
+    display:flex;
+    justify-content: space-evenly;
+}
+.smallrowtxt li{
+    padding:10px 0px;
+    list-style-type: none;
+
+}
+.smallrowtxt li a{
+    text-decoration: none;
+    color:#2a80b9;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px 15px;
+}
+.smallrowtxt a:hover{
+    background-color: #eee;
+    border-radius: 2px;
+}                                     /* --------------------end of small-------------------*/
+
+.website{
+    text-align:justify;
+}
+.webcontainer{
+    width:50%;
+    margin:auto;
+}
+.websitetext1{
+   text-align:center;
+   font-size:10px;
+   padding:0px 15px 10px;
+   color:#999999;
+   font-family: Arial, Helvetica, sans-serif;
+  
+}   /* --------------------end of website-------------------*/        
+
+.footer{
+    background-color: #000;
+}
+
+.footerlogos{
+    width:60%;
+    height:63px;
+    margin:auto;
+    padding:5px 3px 8px;
+    
+}
+.footerlogos a img{
+    margin-left: 13px;
+    margin-right: 13px;
+}  /* --------------------end of footer-------------------*/
